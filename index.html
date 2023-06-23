@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>House Of Mooja</title>
+</head>
+<body>
+
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>House Of Mooj&#228;</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Serivce">Product</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hero">
+    <div class="hero container">
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="services-container">
+      <div class="service-top">
+        <h1 class="section-title">Product</h1>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="img/rebeca.png" /></div>
+          <h2>Rebeca</h2>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/eskupimooja.png" /></div>
+          <h2>Ice Kupi Mooj&#228;</h2>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/blastoise.png" /></div>
+          <h2>Blastoise</h2>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/vanillacream.png" /></div>
+          <h2>Ice Kupi Vanilla Cream</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img/logo.png" alt="Logo House of Mooja">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About Us</h1>
+        <h2>House Of Mooj&#228;</h2>
+        <p>Founded in 2020 by two partner from Bandung, House of Moojä
+            comes from an idea that everyone can enjoy coffee. It's all started at
+            grandma home on Jalan Sukagalih no 104. And House of Moojä still growing till now
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.928212887442!2d107.5902328!3d-6.8927497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7ffdcdb5653%3A0x7c94a7140991712e!2sHouse%20Of%20Mooja!5e0!3m2!1sen!2sid!4v1687523729979!5m2!1sen!2sid" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact Us</h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+62-811-3501-747</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>houseofmooja@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Jalan Sukagalih no 104</h2>
+          </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="form-section">
+    <div class="formuye">
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data:</legend>
+            <div>
+              <label for="fullName">Full Name:</label>
+              <input id="fullName" type="text" required />
+            </div>
+    
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+    
+            <div>
+              <p>Do you like coffee?</p>
+              <input type="radio" id="yes" name="coffee" value="Like" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="coffee" value="Dislike" />
+              <label for="no">No</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Additional information:</legend>
+            <div>
+              <p>What coffee do you often order at coffee shops?</p>
+              <input
+                id="cappucino"
+                type="checkbox"
+                name="personality"
+                value="cappucino"
+              />
+              <label for="cappucino">Cappucino</label>
+              <input
+                id="icecoffee"
+                type="checkbox"
+                name="personality"
+                value="icecoffee"
+              />
+              <label for="icecoffee">Ice Coffee with Brown Sugar</label>
+              <input
+                id="matcha"
+                type="checkbox"
+                name="personality"
+                value="matcha"
+              />
+              <label for="matcha">Matcha Latte</label>
+            </div>
+            <div>
+              <p>Tell us why you love coffee!</p>
+              <textarea rows="3"></textarea>
+            </div>
+            <div>
+              <p>Upload your favorite coffee shops here:</p>
+              <input
+                type="file"
+                id="photo"
+                name="favoritecoffeeshops"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+    </section>
+    </div>
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>House Of Mooj&#228;</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.instagram.com/houseofmooja/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.tiktok.com/@houseofmooja"><img src="https://img.icons8.com/bubbles/100/000000/tiktok.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 House of Mooj&#228;</p>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
